@@ -1,6 +1,6 @@
 # Raspberry Pi IoT Kiosk (Pi IoT Tron) - Kiosk - INTERNET OF THINGS (IoT) :: Internet of Things Drools-jBPM Expert System using Pi IoT Tron AI-IoTBPMServer
 
-![alt tag](http://IoTBPM.com/wp-content/uploads/2018/05/Arduino_Logotype-e1527283874261.png "Arduino Tron")
+![alt tag](http://IoTBPM.com/wp-content/uploads/2018/05/Arduino_Logotype-e1527283874261.png "Raspberry Pi IoT Tron")
 
 ### Raspberry Pi IoT Kiosk (Pi IoT Tron) - Kiosk - INTERNET OF THINGS (IoT)
 
@@ -34,7 +34,7 @@ The Executive Order Raspberry Pi IoT Kiosk (Pi IoT Tron) is built on a powerful 
 components, sensors, and wireless connectivity devices, that allows you to easily connect your IoT things and enterprise systems together, saving you time and 
 allowing you to get your solution to market quickly.
 
-You can have an unlimited number and combination of Arduino Tron IoT Devices and/or EOSPY GPS Client tracking devices in use with Arduino Tron AI-IoTBPMServer.
+You can have an unlimited number and combination of Raspberry Pi IoT Tron IoT Devices and/or EOSPY GPS Client tracking devices in use with Raspberry Pi IoT Tron AI-IoTBPMServer.
 (Optionally, download EOSPY server from our website http://www.eospy.com and find up to date information at http://www.iotbpm.com and Download EOSPY GPS client 
 from the Google Store, standard or TI-SensorTag version.)
 
@@ -43,14 +43,14 @@ from the Google Store, standard or TI-SensorTag version.)
 
 The power of the IoT (Internet of Things) device increases greatly when business process (jBPM) can use them to provide information
 about our real-world as well as execute IoT devices as part of our business process. The jBPM-BPMN modular allow us to define 
-both the business processes and IoT devices behavior at the same time using one diagram. With Arduino Tron adding Drools-jBPM to IoT,
+both the business processes and IoT devices behavior at the same time using one diagram. With Raspberry Pi IoT Tron adding Drools-jBPM to IoT,
 we make the IoT devices "smart". Moving beyond just collecting IoT data and transitioning, to leveraging the new wealth of IoT data, 
-to improving the SMART decision making is the key. The Executive Order Arduino Tron AI-IoTBPMServer will help these IoT devices, environments, 
+to improving the SMART decision making is the key. The Executive Order Raspberry Pi IoT Tron AI-IoTBPMServer will help these IoT devices, environments, 
 and products to self-monitor, self-diagnose and eventually, self-direct.
 
-Arduino Tron allows you to send IoT sensor data and information directly to the AI-IoTBPMServer Drools-jBPM Expert System from the Arduino device.
+Raspberry Pi IoT Tron allows you to send IoT sensor data and information directly to the AI-IoTBPMServer Drools-jBPM Expert System from the aspberry Pi device.
 This provides a very lite streamline IoT to Drools-jBPM (Business Process Management) application process with sensor and GPS positioning information.
-Executive Order Arduino Tron - This quick guide will help you install and configure the Arduino Tron - Executive Order Sensor Processor System components.
+Executive Order Raspberry Pi IoT Tron - This quick guide will help you install and configure the Raspberry Pi IoT Tron - Executive Order Sensor Processor System components.
 
 - Executive Order Corporation
 - Copyright - 1978, 2019: Executive Order Corporation, All Rights Reserved
