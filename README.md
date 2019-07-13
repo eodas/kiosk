@@ -1,6 +1,6 @@
 # Raspberry Pi IoT Kiosk (Pi IoT Tron) - Kiosk - INTERNET OF THINGS (IoT) :: Internet of Things Drools-jBPM Expert System using Pi IoT Tron AI-IoTBPMServer
 
-![alt tag](http://IoTBPM.com/wp-content/uploads/2018/05/Arduino_Logotype-e1527283874261.png "Raspberry Pi IoT Tron")
+![alt tag](http://iotbpm.com/wp-content/uploads/2019/07/RaspberryPiArduino.3.png "Raspberry Pi IoT Tron")
 
 ### Raspberry Pi IoT Kiosk (Pi IoT Tron) - Kiosk - INTERNET OF THINGS (IoT)
 
