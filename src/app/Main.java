@@ -16,8 +16,20 @@ import app.model.*;
 import app.views.*;
 
 /**
- * This class is the root class of the application.
+ * Executive Order Corporation we make Things Smart
+ *
+ * Arduino Tron AI-IoTBPM :: Internet of Things Drools-jBPM Expert System using Arduino Tron AI-IoTBPM Processing
+ * Arduino Tron Drools-jBPM :: Executive Order Arduino Tron Sensor Processor MQTT AI-IoTBPM Client using AI-IoTBPM Drools-jBPM
+ * Executive Order Corporation - Arduino Tron ESP8266 MQTT Telemetry Transport Machine-to-Machine(M2M)/Internet of Things(IoT)
+ *
+ * Executive Order Corporation
+ * Copyright (c) 1978, 2019: Executive Order Corporation, All Rights Reserved
  */
+
+/**
+ * This is the main class for Raspberry Pi IoT Tron AI-IoTBPM Drools-jBPM Expert System
+ */
+
 public class Main {
 
 	public static User USER;
