@@ -1,0 +1,38 @@
+<html>
+    <head><style>
+        html, body { text-align: left; font-family: OpenSansRegular, sans-serif; font-size: 12px; width: 400px; }
+        table { border: 0px; border-collapse: collapse; }
+        th, td { padding: 1px 5px; margin: 0; }
+        .icon { font-family: MyIcons; font-size: 80px; text-align: center; }
+        .label { font-size: 12px; }
+        .value { font-size: 16px; }
+        .expiry .value { font-size: 35px; font-family: OpenSansSemibold, sans-serif;}
+        .head { background-color: red; color: white; }
+    </style></head>
+    <body>
+        <table width="100%" class="head">
+            <tr><td width="30%">
+            <p class="icon">&#xe00c;</p>
+            </td><td class="expiry">
+                <h1>Executive Order Parking</h1>
+                <p class="label">VALID UNTIL:</p>
+                <p class="value">{EXPIRY}</p>
+            </td></tr>
+        </table>
+        <table width="100%">
+            <tr><td width="28%"><p class="label">USER:</p>
+                    <p class="value">{USER_ID}</p></td>
+                <td width="30%"><p class="label">First NAME:</p>
+                    <p class="value">{FIRST_NAME}</p></td>
+                <td><p class="label">Last NAME:</p>
+                    <p class="value">{SURNAME}</p></td></tr>
+            <tr><td colspan="3">
+                    <p class="label">VEHICLE:</p>
+                    <p class="value">{YEAR} {MAKE} {MODEL}</p></td></tr>
+            <tr><td><p class="label">LICENSE PLATE:</p>
+                    <p class="value">{LICENSE}</p></td>
+                <td><p class="label">ISSUED ON:</p>
+                    <p class="value">{ISSUED_DATE}</p></td></tr>
+        </table>
+    </body>
+</html>
