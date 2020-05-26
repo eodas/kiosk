@@ -10,6 +10,7 @@
 	<description>Raspberry Pi IoT Kiosk (Pi IoT Tron) AI-IoTBPMServer :: AI-IoTBPMServer Application using the jBPM and Drools Rules Engine for Pi IoT Tron and AI-IoTBPMServer Executive Order Corp</description>
   
    <dependencies>
+  
     <dependency>
       <groupId>com.pi4j</groupId>
       <artifactId>pi4j-device</artifactId>
@@ -20,6 +21,7 @@
       <artifactId>pi4j-core</artifactId>
       <version>1.2</version>
     </dependency>
+
   </dependencies>
   
   <build>
