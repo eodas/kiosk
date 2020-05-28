@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pi4m:Board xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pi4m="http://pi4jmodel/1.0" name="Raspberry PI B+" noOfPins="40">
+  <controls name="gpiocontroller">
+    <inputPins pin="//@pins.7" name="InputPIN_GPIO_02_13"/>
+    <outputPins pin="//@pins.6" name="OutputPIN_GPIO_01_12">
+      <pinStates/>
+    </outputPins>
+    <outputPins pin="//@pins.8" name="OutputPIN_GPIO_03_15"/>
+  </controls>
+  <pins name="GPIO_08" pinno="3"/>
+  <pins name="GPIO_09" pinno="5"/>
+  <pins name="GPIO_07" pinno="7"/>
+  <pins name="GPIO_15" pinno="8"/>
+  <pins name="GPIO_16" pinno="10"/>
+  <pins name="GPIO_00" pinno="11"/>
+  <pins name="GPIO_01" pinno="12"/>
+  <pins name="GPIO_02" pinno="13"/>
+  <pins name="GPIO_03" pinno="15"/>
+  <pins name="GPIO_04" pinno="16"/>
+  <pins name="GPIO_05" pinno="18"/>
+  <pins name="GPIO_12" pinno="19"/>
+  <pins name="GPIO_13" pinno="21"/>
+  <pins name="GPIO_06" pinno="22"/>
+  <pins name="GPIO_14" pinno="23"/>
+  <pins name="GPIO_10" pinno="24"/>
+  <pins name="GPIO_11" pinno="26"/>
+  <pins name="GPIO_21" pinno="29"/>
+  <pins name="GPIO_22" pinno="31"/>
+  <pins name="GPIO_26" pinno="32"/>
+  <pins name="GPIO_23" pinno="33"/>
+  <pins name="GPIO_24" pinno="35"/>
+  <pins name="GPIO_27" pinno="36"/>
+  <pins name="GPIO_25" pinno="37"/>
+  <pins name="GPIO_28" pinno="38"/>
+  <pins name="GPIO_29" pinno="40"/>
+  <groundPins name="Ground_9" pinno="9" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_14" pinno="14" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_25" pinno="25" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_20" pinno="20" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_6" pinno="6" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_30" pinno="30" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_34" pinno="34" pinType="GROUND_PIN"/>
+  <groundPins name="Ground_39" pinno="39" pinType="GROUND_PIN"/>
+  <powerPins name="+3.3V" pinno="1" pinType="POWER_PIN"/>
+  <powerPins name="+3.3V" pinno="17" pinType="POWER_PIN"/>
+  <powerPins name="+5V" pinno="2" pinType="POWER_PIN"/>
+  <powerPins name="+5V" pinno="4" pinType="POWER_PIN"/>
+</pi4m:Board>
