@@ -53,4 +53,4 @@ This provides a very lite streamline IoT to Drools-jBPM (Business Process Manage
 Executive Order Raspberry Pi IoT Tron - This quick guide will help you install and configure the Raspberry Pi IoT Tron - Executive Order Sensor Processor System components.
 
 - Executive Order Corporation
-- Copyright - 1978, 2019: Executive Order Corporation, All Rights Reserved
+- Copyright - 1978, 2020: Executive Order Corporation, All Rights Reserved
