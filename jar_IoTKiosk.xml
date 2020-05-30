@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project ParkingKiosk">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/../.."/>
+    <property name="dir.jarfile" value="${dir.buildfile}/jar"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/IoTKiosk.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="app.Main"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.buildfile}/target/classes"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-device/1.2/pi4j-device-1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-gpio-extension/1.2/pi4j-gpio-extension-1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-core/1.2/pi4j-core-1.2.jar"/>
+        </jar>
+    </target>
+</project>
