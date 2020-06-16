@@ -127,9 +127,11 @@ public class MultiPanel extends CardLayout {
 	 * Hardware Reference
 	 * =============================
 	 * The components are connected to the main Pi GPIO header (P1)
-	 * LED 1    - P1-07 - GPIO4
-	 * LED 2    - P1-11 - GPIO17
-	 * LED 3    - P1-15 - GPIO22
+	 * Component  Pin       BCM    WiringPi
+	 * ---------|-------|--------|---------
+	 * LED 1    - P1-07 - GPIO4  - GPIO. 7
+	 * LED 2    - P1-11 - GPIO17 - GPIO. 0
+	 * LED 3    - P1-15 - GPIO22 - GPIO. 3
 	 * LED 4    - P1-19 - GPIO10
 	 * LED 5    - P1-21 - GPIO9
 	 * LED 6    - P1-23 - GPIO11
@@ -139,17 +141,17 @@ public class MultiPanel extends CardLayout {
 	 *
 	 * Jam HAT - 6 LED - 2 Switch - 1 Buzzer Board
 	 * The table below shows the pin numbers for BCM, Board and the matching GPIO Zero objects.
-	 * |Component |GPIO.BCM | BOARD  |GPIO Zero object | Notes |
-	 * |----------|---------|--------|-----------------|-------|
-	 * | LED1     | GPIO 5  | Pin 29 | lights_1.red    |   	   |
-	 * | LED2     | GPIO 6  | Pin 31 | lights_2.red    |   	   |
-	 * | LED3     | GPIO 12 | Pin 32 | lights_1.yellow |       |
-	 * | LED4     | GPIO 13 | Pin 33 | lights_2.yellow |       |
-	 * | LED5     | GPIO 16 | Pin 36 | lights_1.green  |       |
-	 * | LED6     | GPIO 17 | Pin 11 | lights_2.green  |       |
-	 * | Button 1 | GPIO 19 | Pin 35 | button_1        | Connected to R8/R10 |
-	 * | Button 2 | GPIO 18 | Pin 12 | button_2        | Connected to R7/R9 |
-	 * | Buzzer   | GPIO 20 | Pin 38 | buzzer          |       |
+	 * |Component |GPIO.BCM | BOARD  |GPIO Zero object |WiringPi | Notes 
+	 * |----------|---------|--------|-----------------|---------|
+	 * | LED1     | GPIO 5  | Pin 29 | lights_1.red    | GPIO.21 |
+	 * | LED2     | GPIO 6  | Pin 31 | lights_2.red    | GPIO.22 |
+	 * | LED3     | GPIO 12 | Pin 32 | lights_1.yellow | GPIO.26 |
+	 * | LED4     | GPIO 13 | Pin 33 | lights_2.yellow | GPIO.23 |
+	 * | LED5     | GPIO 16 | Pin 36 | lights_1.green  | GPIO.27 |
+	 * | LED6     | GPIO 17 | Pin 11 | lights_2.green  | GPIO. 0 |
+	 * | Button 1 | GPIO 19 | Pin 35 | button_1        | GPIO.24 | Connected to R8/R10 
+	 * | Button 2 | GPIO 18 | Pin 12 | button_2        | GPIO. 1 | Connected to R7/R9 
+	 * | Buzzer   | GPIO 20 | Pin 38 | buzzer          | GPIO.28 |
 	 *
 	 * Wiring Pi - GPIO Interface library for the Raspberry Pi
 	 * +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
