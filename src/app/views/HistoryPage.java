@@ -5,9 +5,9 @@ import app.helpers.*;
 import app.model.*;
 import app.uitoolkit.*;
 
-import java.util.List;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.List;
 
 import javax.swing.*;
 import javax.swing.border.*;
