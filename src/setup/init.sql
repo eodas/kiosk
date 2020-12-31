@@ -1,6 +1,6 @@
 -- Database Initialization
 -- Executive Order Corporation
--- Copyright - 1978, 2019: Executive Order Corporation, All Rights Reserved
+-- Copyright - 1978, 2021: Executive Order Corporation, All Rights Reserved
 -- Populate the database with data.
 -- ---------------------------------------------------------------------------
 

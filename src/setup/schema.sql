@@ -1,6 +1,6 @@
 -- Database Schema
 -- Executive Order Corporation
--- Copyright - 1978, 2019: Executive Order Corporation, All Rights Reserved
+-- Copyright - 1978, 2021: Executive Order Corporation, All Rights Reserved
 --
 -- This SQL script defines the tables, triggers and
 -- views of the database. Sets the constraints, relationships
