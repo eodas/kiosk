@@ -13,9 +13,9 @@
                 <attribute name="Class-Path" value="."/>
             </manifest>
             <fileset dir="${dir.buildfile}/target/classes"/>
-            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-device/1.2/pi4j-device-1.2.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-gpio-extension/1.2/pi4j-gpio-extension-1.2.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-core/1.2/pi4j-core-1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-device/1.3/pi4j-device-1.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-gpio-extension/1.3/pi4j-gpio-extension-1.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/execu/.m2/repository/com/pi4j/pi4j-core/1.3/pi4j-core-1.3.jar"/>
         </jar>
     </target>
 </project>
